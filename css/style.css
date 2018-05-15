@@ -1,19 +1,36 @@
-body {background-color: blue;
+body {
+  background-color:  blue;
 }
 
 h1 {
   text-align: center;
 }
 
-#rock {
-  align: right;
+.container {
+    display: inline-block;
+    margin: 0px 0px 50px 0px; 
+ }
+
+ .pictures {
+   margin: 0px 125px 0px 125px;
+ }
+
+ .buttons {
+   display: inline-block;
+
+ }
+ 
+.buttons .rbutton:hover {
+  background-color: black;
+  color: white;
 }
 
-#paper {
-  align: center;
+.buttons .pbutton:hover {
+  background-color: black;
+  color: white;
 }
 
-#scissors {
-  align: left;
+.buttons .sbutton:hover {
+  background-color: black;
+  color: white;
 }
-
