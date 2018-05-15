@@ -1,0 +1,19 @@
+body {background-color: blue;
+}
+
+h1 {
+  text-align: center;
+}
+
+#rock {
+  align: right;
+}
+
+#paper {
+  align: center;
+}
+
+#scissors {
+  align: left;
+}
+
